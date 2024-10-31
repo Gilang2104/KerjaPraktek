@@ -10,8 +10,8 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxtjs/tailwindcss": "^6.12.1",
-    "@primevue/themes": "^4.0.7",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@primevue/themes": "^4.1.1",
     "axios": "^1.7.7",
     "kerja-praktek": "file:",
     "nuxt": "^3.13.0",
@@ -22,6 +22,6 @@
     "vue-router": "latest"
   },
   "devDependencies": {
-    "@primevue/nuxt-module": "^4.0.7"
+    "@primevue/nuxt-module": "^4.1.1"
   }
 }
