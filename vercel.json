@@ -6,6 +6,11 @@
       "DB_PASSWORD": "",
       "DB_NAME": "db_kerjapraktek_api",
       "DB_PORT": "8111"
+    },
+    "functions": {
+      "api/**/*.js": {
+        "runtime": "nodejs14.x"
+      }
     }
   }
   
