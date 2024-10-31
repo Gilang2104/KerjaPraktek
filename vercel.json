@@ -1,8 +1,17 @@
 {
-    "version":2,
-    "build":[
+    "version": 2,
+    "build": {
+        "env": {
+            "DB_HOST": "localhost",
+            "DB_USER": "root",
+            "DB_PASSWORD": "",
+            "DB_NAME": "db_kerjapraktek_api",
+            "DB_PORT": "8111"
+        }
+    },
+    "builds": [
         {
-            "src":"nuxt.config.js",
+            "src": "nuxt.config.js",
             "use": "@nuxtjs/vercel-builder"
         }
     ]
